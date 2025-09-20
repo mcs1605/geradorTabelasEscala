@@ -62,7 +62,7 @@ function gerarTabela(mesAno = null, container = null) {
     thNome.style.width = "200px";
     let inputThNome = document.createElement('input');
     inputThNome.type = 'text';
-    inputThNome.value = 'Nome';
+    inputThNome.value = 'Nome - Matrícula - PERÍODO(editar)';
     inputThNome.className = 'input-th-nome font-bold w-full bg-transparent outline-none';
     inputThNome.oninput = function() {
         thNome.title = inputThNome.value;
