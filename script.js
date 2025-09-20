@@ -43,7 +43,7 @@ function gerarTabela(mesAno = null, container = null) {
         const div = document.createElement('div');
         div.id = 'data-escolhida';
         div.className = 'text-center text-lg font-semibold my-2';
-        div.textContent = `Mês selecionado: ${String(mes).padStart(2, '0')}/${ano}`;
+        div.textContent = `LABORATÓRIO - UPA OESTE Profº Drº João José Carneiro - : ${String(mes).padStart(2, '0')}/${ano}`;
         const headerImgs = document.querySelector('.container.mx-auto.py-6.flex');
 
         if (headerImgs && headerImgs.parentNode) {
