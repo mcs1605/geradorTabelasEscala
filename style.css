@@ -1,5 +1,5 @@
 @media print {
-    .autopreenchimento, .btn-imprimir, .btn-nova-tabela, .controles, .btn-excluir, .btn-add-linha, .excluir, .btn-apagar-tabela, {
+    .autopreenchimento, .btn-imprimir, .btn-nova-tabela, .controles, .btn-excluir, .btn-add-linha, .excluir, .btn-apagar-tabela {
     display: none !important;
     }
 }
