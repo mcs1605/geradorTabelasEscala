@@ -38,7 +38,8 @@ function gerarTabela(mesAno = null, container = null) {
 
     const dataEscolhidaDiv = document.getElementById('data-escolhida');
     if (dataEscolhidaDiv) {
-        dataEscolhidaDiv.textContent = `LABORATÓRIO - UPA OESTE Profº Drº João José Carneiro \nMês/ano: ${String(mes).padStart(2, '0')}/${ano}`;
+        dataEscolhidaDiv.textContent = `LABORATÓRIO - UPA OESTE Profº Drº João José Carneiro
+        Mês/ano: ${String(mes).padStart(2, '0')}/${ano}`;
     } else {
         const div = document.createElement('div');
         div.id = 'data-escolhida';
