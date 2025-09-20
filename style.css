@@ -1,0 +1,9 @@
+@media print {
+    .autopreenchimento, .btn-imprimir, .btn-nova-tabela, .controles, .btn-excluir, .btn-add-linha, .excluir, .btn-apagar-tabela {
+    display: none !important;
+    }
+}
+
+.input-dia::-webkit-input-placeholder { color: #bbb; }
+.input-dia:-ms-input-placeholder { color: #bbb; }
+.input-dia::placeholder { color: #bbb; }
